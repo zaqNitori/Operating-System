@@ -1,0 +1,10 @@
+This
+file's
+content
+will
+be
+copy
+to
+another
+file
+.

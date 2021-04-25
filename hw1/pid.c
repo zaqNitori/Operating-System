@@ -81,7 +81,7 @@ void release_pid(int pid)
 
 void showPIDUsing()
 {
-    printf("Allocated PID\n");
+    printf("\nShow Allocated PID\n");
     for(int i=MIN_PID;i<MAX_PID;i++)
         if(pid_map[i] == 1)
             printf("%d.%d\n",i,pid_map[i]);

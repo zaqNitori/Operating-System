@@ -24,7 +24,10 @@ int main(void)
     char buf[256];
     int bufSize = sizeof(buf);
     while(fgets(buf,bufSize,inputFile) != NULL)
+    {
+        printf("%s",buf);
         fputs(buf,outputFile);
+    }
     fclose(inputFile);
     fclose(outputFile);
     return 0;

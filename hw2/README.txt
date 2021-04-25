@@ -7,9 +7,11 @@ gcc -pthread -o prime.out 419prime.c
 415-multithread-pid.c
 hw1的pid藉由生成多個pthread來達到自動
 配置及釋放PID的功能
+gcc -pthread -o pid.out 415-multithread-pid.c
 
 630-Mutex-pid.c
 由於多個thread同時access shared date會
 出現問題，因此加上了mutex lock，確保一次
 只會有一個thread能夠access shared data.
+gcc -pthread -o pid.out 630-Mutex-pid.c
 
